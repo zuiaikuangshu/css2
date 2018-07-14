@@ -4,12 +4,24 @@
     margin: 0;
 }
 
+h1{margin-bottom: 24px;
+font-size: 36px;
+}
+
 header{
     height: 60px;
 }
+
 .safe{
     width: 1200px;
     margin: 0 auto;
+}
+
+/*消除浮动*/
+.safe::after{
+    content: '';
+    display: block;
+    clear: both;
 }
 
 .headerTxt{
@@ -59,6 +71,12 @@ header{
     color: #24a9f1;
     outline: none;
 }
+.ffont2{
+    padding-top: 50px ;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: white;
+}
 
 .fbtnG>button:first-child{
     margin-right: 22px;
@@ -93,56 +111,131 @@ header{
     width: 200px;
 }
 
-.ffont2{
-    padding: 52px 0 15px 0;
-    font-size: 22px;
-    color: #ffffff;
-    letter-spacing: 1px;
-}
-
-.safe{
-    width: 1200px;
-    margin: 0 auto;
-}
-
+/*楼层二*/
 #floor-2{
     height: 1000px;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
     background-color: #4eb55f;
-    text-align: center;
 }
 
-.fimq2{
-    text-align: center;
-     float: left;
-}
-.ffont3{
+.f-left{
     float: right;
 }
-.fl::after{
-    content:'';
-    display:block;
-    clear:both;
-}
-.ffont4{
-    font-size: 36px;
-    color: #ffffff;
+
+.f-right{
+    float: left;
 }
 
-.ffont5{
-    font-size: 18px;
+.font{
+    color: white;
+    text-align: right;
+    padding-top: 412px;
+}
+
+.f2Img{ margin-top: 148px }
+.font>h1{font-size: 36px;}
+.font>p{font-size: 18px}
+
+/*楼层二结束*/
+
+/*楼层三*/
+#floor-3{
+    height: 1000px;
+    background-color: #eb9c36;
+}
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
+.font2{
+    color: white;
+    text-align: left;
+    padding-top: 450px;
+}
+
+.f2Img{ margin-top: 207px }
+.font>h1{font-size: 36px;}
+.font2>p{font-size: 18px}
+
+/*楼层三结束*/
+
+/*楼层四开始*/
+
+#floor-4{
+    height: 1000px;
+    background-color: #ed683f;
+}
+
+.f-left{
+    float: right;
+}
+
+.f-right{
+    float: left;
+}
+
+.font3{
+    color: white;
+    text-align: right;
+    padding-top: 445px;
+}
+
+.f2Img{ margin-top: 188px }
+.font>h1{font-size: 36px;}
+.font3>p{font-size: 18px}
+
+/*楼层四结束*/
+
+/*楼层五开始*/
+
+#floor-5{
+    height: 1000px;
+    background-color: #4c9bd7;
+}
+
+.f-left{
+    float:left;
+}
+
+.f-right{
+    float:right;
+}
+
+.font4{
+    color: white;
+    text-align: left;
+    padding-top: 430px;
+}
+
+.f2Img{ margin-top: 245px }
+.font>h1{font-size: 36px;}
+.font4>p{font-size: 18px}
+
+/*楼层五结束*/
+
+/*楼层六开始*/
+
+
+
+#floor-6{
+    height: 1000px;
+    background-color: #356b95;
+}
+
+.f4Img{
+    margin-top: 316px;
+}
+
+.f4Font{
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
+.f4Font h1{  font-size: 26px;margin-bottom: 24px;  }
+.disInline{display: inline-block;}
+.f4Info{width:492px;}
+.f4Info>div:first-child{vertical-align: top}
 
