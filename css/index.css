@@ -1,0 +1,148 @@
+/* all */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 60px;
+}
+.safe{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.headerTxt{
+    text-align: right;
+    font-size: 14px;
+    color: #666666;
+    line-height: 58px;
+}
+
+.headerTxt>*{vertical-align: middle;}
+
+.icon-dianhua{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.mr18{
+    margin-right: 18px;
+}
+
+/*楼层*/
+#floor-1{
+    height: 940px;
+    background-image: url(../img/wyy.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    text-align: center;
+}
+#fimq1{
+    padding-top: 140px;
+}
+.ffont1{
+    font-size: 28px;
+    color:#43698f;
+    padding: 26px 0 90px;
+}
+.fbtnG{
+    font-size: 0;
+}
+.fbtnG>button{
+    width:280px;
+    height: 60px;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #24a9f1;
+    outline: none;
+}
+
+.fbtnG>button:first-child{
+    margin-right: 22px;
+}
+
+/*鼠标经过的效果*/
+.fbtnG>button:hover{
+    background-color: #de91f1;
+}
+
+/*鼠标点击下去的效果*/
+.fbtnG>button:active{
+    background-color: #f16965;
+}
+
+.fbtnG>button:first-child{
+    margin-right: 22px;
+}
+
+.fbtnG i{
+    font-size: 32px;
+    vertical-align: -2px;
+}
+
+.fbtnG2{
+    padding: 52px 0 14px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 12px;
+}
+.wbcode>img{
+    width: 200px;
+}
+
+.ffont2{
+    padding: 52px 0 15px 0;
+    font-size: 22px;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.safe{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#floor-2{
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    background-color: #4eb55f;
+    text-align: center;
+}
+
+.fimq2{
+    text-align: center;
+     float: left;
+}
+.ffont3{
+    float: right;
+}
+.fl::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.ffont4{
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.ffont5{
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
