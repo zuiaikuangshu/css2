@@ -219,7 +219,11 @@ header{
 
 /*楼层六开始*/
 
-
+.safe::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 
 #floor-6{
     height: 1000px;
@@ -230,12 +234,31 @@ header{
     margin-top: 316px;
 }
 
-.f4Font{
+.f4font{
     color: white;
+    margin-top: 405px;
 }
 
-.f4Font h1{  font-size: 26px;margin-bottom: 24px;  }
+.f4Font h1{  font-size: 28px;margin-bottom: 24px;  }
 .disInline{display: inline-block;}
 .f4Info{width:492px;}
 .f4Info>div:first-child{vertical-align: top}
+
+/*楼层六结束*/
+
+/*楼层七开始*/
+
+#floor-7{
+    height:80px;
+    background-color: #295373;
+}
+.ffont9{
+    padding:30px 687px 30px 687px ;
+    font-size: 12px;
+    color: #999999;
+}
+
+
+
+
 
