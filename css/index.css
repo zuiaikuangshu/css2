@@ -274,48 +274,28 @@ header{
     padding-top: 20px;
 }
 
-#fimq10>img{
-    height: 110px;
-    vertical-align: middle;
+.f6Font{
+    color: white;
+    font-size: 18px;
+   margin-right: 450px;
 }
 
-.fbtnG4>button:active{
-    background-color: #f16965;
+.f7Font{
+    color: white;
+    font-size: 18px;
+    margin-left: 608px;
 }
 
-.fbtnG4>button:first-child{
-    margin-right: 22px;
-}
-
-.fbtnG4 i{
-    font-size: 32px;
-    vertical-align: -2px;
-}
-
-.fbtnG4>button{
-    width:220px;
-    height: 50px;
-    background-color: white;
-    border:none;
-    border-radius: 10px;
-    font-size: 22px;
-    color: #24a9f1;
-    outline: none;
-
-}
-.f-left2{
+.f5Img{
     height: 110px;
     width: 110px;
     vertical-align: middle;
 }
 
-
-.f6Font{
-    color: white;
-    font-size: 18px;
-}
-.f6Font{
+.icon-chacha{
     vertical-align: middle;
+    margin-left: 112px;
+    font-size: 20px;
 }
 
 
