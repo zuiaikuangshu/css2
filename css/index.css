@@ -277,13 +277,14 @@ header{
 .f6Font{
     color: white;
     font-size: 18px;
-   margin-right: 450px;
+    vertical-align: middle;
+    margin-right: 47px;
 }
 
 .f7Font{
     color: white;
     font-size: 18px;
-    margin-left: 608px;
+    vertical-align: middle;
 }
 
 .f5Img{
@@ -298,16 +299,53 @@ header{
     font-size: 20px;
 }
 
+.anniu1{
+    width:220px;
+    height: 50px;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #24a9f1;
+    outline: none;
+    vertical-align: middle;
+    margin-right: 28px;
+}
 
+.anniu2{
+    width:220px;
+    height: 50px;
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #24a9f1;
+    outline: none;
+    vertical-align: middle;
+    margin-right: 30px;
+}
 
+.anniu1 i{
+    font-size: 35px;
+    vertical-align: -6px;
+    text-align: left;
+}
 
+.anniu2 i{
+    font-size: 40px;
+    vertical-align: -6px;
+    text-align: left;
+}
 
+.icon-pingguo{
+    font-size: 28px;
+    vertical-align: -4px;
+}
 
-
-
-
-
-
+.icon-android{
+    font-size: 28px;
+    vertical-align: -4px;
+}
 
 
 
