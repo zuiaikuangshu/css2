@@ -327,7 +327,25 @@ header{
     margin-right: 30px;
 }
 
+/*��꾭����Ч��*/
+.anniu1:hover{
+    background-color: #de91f1;
+}
 
+/*�������ȥ��Ч��*/
+.anniu1:active{
+    background-color: #f16965;
+}
+
+/*��꾭����Ч��*/
+.anniu2:hover{
+    background-color: #de91f1;
+}
+
+/*�������ȥ��Ч��*/
+.anniu2:active{
+    background-color: #f16965;
+}
 
 .anniu1 i{
     font-size: 35px;
