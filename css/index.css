@@ -2,7 +2,7 @@
 *{
     padding: 0;
     margin: 0;
-    /*¹ÖÒìºÐ×ÓÄ£ÐÍ*/
+    /*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½*/
     box-sizing: border-box;
 }
 
@@ -19,7 +19,7 @@ header{
     margin: 0 auto;
 }
 
-/*Ïû³ý¸¡¶¯*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .safe::after{
     content: '';
     display: block;
@@ -43,7 +43,7 @@ header{
     margin-right: 18px;
 }
 
-/*Â¥²ã*/
+/*Â¥ï¿½ï¿½*/
 #floor-1{
     height: 940px;
     background-image: url(../img/wyy.jpg);
@@ -84,12 +84,12 @@ header{
     margin-right: 22px;
 }
 
-/*Êó±ê¾­¹ýµÄÐ§¹û*/
+/*ï¿½ï¿½ê¾­ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½*/
 .fbtnG>button:hover{
     background-color: #de91f1;
 }
 
-/*Êó±êµã»÷ÏÂÈ¥µÄÐ§¹û*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½Ð§ï¿½ï¿½*/
 .fbtnG>button:active{
     background-color: #f16965;
 }
@@ -113,7 +113,7 @@ header{
     width: 200px;
 }
 
-/*Â¥²ã¶þ*/
+/*Â¥ï¿½ï¿½ï¿½*/
 #floor-2{
     height: 1000px;
     background-color: #4eb55f;
@@ -137,9 +137,9 @@ header{
 .font>h1{font-size: 36px;}
 .font>p{font-size: 18px}
 
-/*Â¥²ã¶þ½áÊø*/
+/*Â¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 
-/*Â¥²ãÈý*/
+/*Â¥ï¿½ï¿½ï¿½ï¿½*/
 #floor-3{
     height: 1000px;
     background-color: #eb9c36;
@@ -163,9 +163,9 @@ header{
 .font>h1{font-size: 36px;}
 .font2>p{font-size: 18px}
 
-/*Â¥²ãÈý½áÊø*/
+/*Â¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 
-/*Â¥²ãËÄ¿ªÊ¼*/
+/*Â¥ï¿½ï¿½ï¿½Ä¿ï¿½Ê¼*/
 
 #floor-4{
     height: 1000px;
@@ -190,9 +190,9 @@ header{
 .font>h1{font-size: 36px;}
 .font3>p{font-size: 18px}
 
-/*Â¥²ãËÄ½áÊø*/
+/*Â¥ï¿½ï¿½ï¿½Ä½ï¿½ï¿½ï¿½*/
 
-/*Â¥²ãÎå¿ªÊ¼*/
+/*Â¥ï¿½ï¿½ï¿½å¿ªÊ¼*/
 
 #floor-5{
     height: 1000px;
@@ -217,9 +217,9 @@ header{
 .font>h1{font-size: 36px;}
 .font4>p{font-size: 18px}
 
-/*Â¥²ãÎå½áÊø*/
+/*Â¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 
-/*Â¥²ãÁù¿ªÊ¼*/
+/*Â¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼*/
 
 .safe::after{
     content: '';
@@ -246,9 +246,9 @@ header{
 .f4Info{width:492px;}
 .f4Info>div:first-child{vertical-align: top}
 
-/*Â¥²ãÁù½áÊø*/
+/*Â¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 
-/*Â¥²ãÆß¿ªÊ¼*/
+/*Â¥ï¿½ï¿½ï¿½ß¿ï¿½Ê¼*/
 
 #floor-7{
     height:80px;
@@ -259,8 +259,8 @@ header{
     font-size: 12px;
     color: #999999;
 }
-/*Â¥²ãÆß½áÊø*/
-/*¸¡²ã*/
+/*Â¥ï¿½ï¿½ï¿½ß½ï¿½ï¿½ï¿½*/
+/*ï¿½ï¿½ï¿½ï¿½*/
 #fixed{
     height:150px;
     width:100%;
@@ -285,6 +285,8 @@ header{
     color: white;
     font-size: 18px;
     vertical-align: middle;
+    margin-right: 26px;
+    margin-left: 30px;
 }
 
 .f5Img{
@@ -324,6 +326,8 @@ header{
     vertical-align: middle;
     margin-right: 30px;
 }
+
+
 
 .anniu1 i{
     font-size: 35px;
